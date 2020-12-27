@@ -1,0 +1,5 @@
+#
+# robots.txt for emoji.fileformat.info
+#
+User-Agent: *
+Disallow: /honeypot.txt

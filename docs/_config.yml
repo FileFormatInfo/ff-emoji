@@ -1,0 +1,12 @@
+#
+# _config.yml for emoji.fileformat.info
+#
+
+exclude: [ "CNAME" ]
+permalink: /blog/:year/:month/:day/:title/index.:output_ext
+production_url: https://emoji.fileformat.info
+title: Emoji Images for FileFormat.Info
+markdown: kramdown
+plugins:
+  - jekyll-redirect-from
+
