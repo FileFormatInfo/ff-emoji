@@ -10,7 +10,9 @@ Please do not hotlink!
 
 ## License
 
-Images are [Apache License 2.0](https://github.com/googlefonts/noto-emoji/blob/master/LICENSE)
+Images are [Apache License 2.0](https://github.com/googlefonts/noto-emoji/blob/master/LICENSE) from Google Noto Emoji
+
+Flags are [Public Domain](https://github.com/behdad/region-flags/blob/gh-pages/COPYING) from Behdad Esfahbod
 
 Everything else is [Affero GPL v3](LICENSE.txt)
 
@@ -26,4 +28,5 @@ Everything else is [Affero GPL v3](LICENSE.txt)
 [![rsvg](https://www.vectorlogo.zone/logos/gnome/gnome-ar21.svg)](https://wiki.gnome.org/Projects/LibRsvg "SVG to PNG conversion")
 [![water.css](https://www.vectorlogo.zone/logos/netlifyapp_watercss/netlifyapp_watercss-ar21.svg)](https://watercss.netlify.app/ "Classless CSS")
 
-* [ImageOptim](https://imageoptim.com/command-line.html)
+* [ImageOptim](https://imageoptim.com/command-line.html) - PNG compression
+* [Behdad Esfahbod](http://behdad.org/) - flags
