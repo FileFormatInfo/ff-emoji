@@ -2,4 +2,12 @@
 #
 # script to run on localhost
 #
-jekyll serve --watch --source docs
+
+set -o errexit
+set -o pipefail
+set -o nounset
+
+jekyll serve \
+    --source docs
+    --watch 
+    

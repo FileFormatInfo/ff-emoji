@@ -9,4 +9,4 @@ title: Emoji Images for FileFormat.Info
 markdown: kramdown
 plugins:
   - jekyll-redirect-from
-
+emoji_count: 3578

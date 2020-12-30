@@ -43,5 +43,7 @@ cat <<EOT >>"${INDEX_FILE}"
 }
 EOT
 
+yq write --inplace "${DEST_DIR}/_config.yml" emoji_count "${#SVG_FILES[@]}"
+
 echo ""
 echo "INFO: complete at $(date -u +%Y-%m-%dT%H:%M:%SZ)"
