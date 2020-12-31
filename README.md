@@ -1,5 +1,7 @@
 # Emoji images for FileFormat.Info [<img alt="FileFormat.Info Logo" src="docs/favicon.svg" height="90" align="right"/>](https://www.fileformat.info/info/emoji/index.htm)
 
+[![# of emoji](https://img.shields.io/badge/dynamic/json.svg?label=emoji&url=https%3A%2F%2Femoji.fileformat.info%2Fstatus.json&query=%24.emoji)](https://emoji.fileformat.info/)
+
 Emoji images for FileFormat.Info's Emoji Reference Pages
 
 ## Using
