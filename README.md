@@ -15,8 +15,6 @@ Please do not hotlink!
 
 Images are [Apache License 2.0](https://github.com/googlefonts/noto-emoji/blob/master/LICENSE) from Google Noto Emoji
 
-Flags are [Public Domain](https://github.com/behdad/region-flags/blob/gh-pages/COPYING) from Behdad Esfahbod
-
 Everything else is [Affero GPL v3](LICENSE.txt)
 
 ## Credits
@@ -32,4 +30,3 @@ Everything else is [Affero GPL v3](LICENSE.txt)
 [![water.css](https://www.vectorlogo.zone/logos/netlifyapp_watercss/netlifyapp_watercss-ar21.svg)](https://watercss.netlify.app/ "Classless CSS")
 
 * [ImageOptim](https://imageoptim.com/command-line.html) - PNG compression
-* [Behdad Esfahbod](http://behdad.org/) - flags

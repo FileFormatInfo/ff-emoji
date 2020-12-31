@@ -10,8 +10,9 @@ set -o nounset
 echo "INFO: starting at $(date -u +%Y-%m-%dT%H:%M:%SZ)"
 
 REPO_URL=https://github.com/googlefonts/noto-emoji
+REPO_BRANCH=${REPO_BRANCH:-master}
 REPO_DIR=$(basename ${REPO_URL})
-REPO_SUBDIR=svg
+REPO_SUBDIR=${REPO_SUBDIR:-svg}
 
 
 SCRIPT_HOME="$( cd "$( dirname "$0" )" && pwd )"
@@ -40,12 +41,12 @@ fi
 LOCAL_DIR="${TMP_DIR}/${REPO_DIR}"
 if [ ! -d "${LOCAL_DIR}" ]; then
     echo "INFO: cloning a fresh copy"
-    git clone --depth 1 ${REPO_URL}.git ${LOCAL_DIR}
+    git clone --depth 1 --branch "${REPO_BRANCH}" "${REPO_URL}.git" "${LOCAL_DIR}"
 else
     echo "INFO: using existing clone"
 fi
 
-SVG_FILES=($(find ${LOCAL_DIR}/${REPO_SUBDIR} -name "*.svg"))
+SVG_FILES=($(find "${LOCAL_DIR}/${REPO_SUBDIR}" -name "emoji_u*.svg" | sort))
 echo "INFO: found ${#SVG_FILES[@]} SVGs"
 
 if [ "${MAX_ICONS:-BAD}" != "BAD" ]; then
